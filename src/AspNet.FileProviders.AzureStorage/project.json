@@ -1,0 +1,20 @@
+﻿{
+    "description": "ASP.NET 5 FileSystem implementation for Microsoft Azure Blob Storage",
+    "version": "0.1.0-beta-001",
+    "authors": [ "Tugberk Ugurlu" ],
+    "tags": [ "filesystem", "aspnet5-filesystem", "azure-storage", "blob-storage" ],
+    "projectUrl": "https://github.com/tugberkugurlu/k-http",
+    "licenseUrl": "https://raw.githubusercontent.com/tugberkugurlu/k-http/master/LICENSE",
+
+    "dependencies": {
+        "Microsoft.AspNet.FileProviders.Interfaces": "1.0.0-beta5-*"
+    },
+
+    "frameworks": {
+        "dnx451": {
+            "dependencies": {
+                "WindowsAzure.Storage": "4.3.0"
+            }
+        }
+    }
+}
